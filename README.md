@@ -51,6 +51,28 @@ bash run.sh
 > SSAC-MGI outperforms multiple baselines in terms of lower task miss rate and reduced energy consumption.  
 > Visual results are available in the `plots/` directory.
 
+
+## Acknowledgement
+
+This project is built upon the codebase of [changmin-yu/desta-lunarlander](https://github.com/changmin-yu/desta-lunarlander), 
+which provided the foundation for environment setup and baseline implementations. 
+We sincerely thank the authors for making their work publicly available.
+
+
+## Citation
+
+If you use this code in your research, please cite the following:
+
+```bibtex
+@misc{ssacmgi2025,
+  author       = {Xiuling Zhang},
+  title        = {SSAC-MGI: Safe and Energy-Efficient Trajectory Planning for Heterogeneous Multi-UAVs},
+  year         = {2025},
+  howpublished = {GitHub},
+  url          = {https://github.com/xiulingzhang22/SSAC-MGI}
+}
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
