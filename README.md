@@ -44,14 +44,13 @@ bash run.sh
 
 ## Core Algorithm: SSAC-MGI
 
-- Multi-agent reinforcement learning with integrated safety intervention mechanism
-- Intelligent task scheduling and UAV energy efficiency
-- Decentralized policy execution with safe trajectory planning
+- A Shared Soft Actor-Critic (SSAC) architecture for extracting UAV-specific heterogeneous features
+- A two-agent Markov Game of Intervention (MGI) for collision avoidance
+- A Round-Robin instance allocation method for assigning computational instances to workflow queues on UAVs. 
 
 ## Experimental Results
 
 > SSAC-MGI outperforms multiple baselines in terms of lower task miss rate and reduced average energy consumption.  
-> Visual results are available in the `plots/` directory.
 
 
 ## Acknowledgement
