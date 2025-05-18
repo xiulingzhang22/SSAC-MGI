@@ -1,5 +1,5 @@
 # 指定语言识别
-*.ipynb linguist-language=Jupyter Notebook
+#*.ipynb linguist-language=Jupyter Notebook
 *.html linguist-detectable=false
 
 # 忽略 Jupyter 生成的中间检查点文件
