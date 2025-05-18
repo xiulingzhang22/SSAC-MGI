@@ -1,10 +1,12 @@
 # SSAC-MGI
 
-**Safe and Energy-Efficient Trajectory Planning for Heterogeneous Multi-UAVs in Stochastic Mobile Edge Computing Environments**
+**Safe and Energy-Efficient Trajectory Planning for Heterogeneous Multi-UAV Enabled Mobile Edge Computing**
 
 ## Introduction
 
-This project implements a Shared Safety-Aware Multi-Agent Reinforcement Learning framework, called SSAC-MGI, which aims to achieve safe and energy-efficient trajectory planning and task scheduling for heterogeneous multi-UAV systems operating in uncertain mobile edge computing (MEC) environments.
+This project implements a multi-agent safe reinforcement learning algorithm that integrate a Shared Soft Actor-Critic (SSAC) architecture for extracting UAV-specific heterogeneous features and a two-agent Markov Game of Intervention (MGI) for collision avoidance, named SSAC-MGI. It is designed to address safe and energy-efficient trajectory planning and task scheduling for heterogeneous multi-UAV systems operating in uncertain mobile edge computing (MEC) environments.
+
+This research has been submitted for publication to IEEE Transactions on Mobile Computing (TMC).
 
 ## Project Structure
 
@@ -42,14 +44,13 @@ bash run.sh
 
 ## Core Algorithm: SSAC-MGI
 
-- Multi-agent reinforcement learning with integrated safety intervention mechanism
-- Intelligent task scheduling and UAV energy efficiency
-- Decentralized policy execution with safe trajectory planning
+- A Shared Soft Actor-Critic (SSAC) architecture for extracting UAV-specific heterogeneous features
+- A two-agent Markov Game of Intervention (MGI) for collision avoidance
+- A Round-Robin instance allocation method for assigning computational instances to workflow queues on UAVs. 
 
 ## Experimental Results
 
-> SSAC-MGI outperforms multiple baselines in terms of lower task miss rate and reduced energy consumption.  
-> Visual results are available in the `plots/` directory.
+> SSAC-MGI outperforms multiple baselines in terms of lower task miss rate and reduced average energy consumption.  
 
 
 ## Acknowledgement
@@ -66,7 +67,7 @@ If you use this code in your research, please cite the following:
 ```bibtex
 @misc{ssacmgi2025,
   author       = {Xiuling Zhang},
-  title        = {SSAC-MGI: Safe and Energy-Efficient Trajectory Planning for Heterogeneous Multi-UAVs},
+  title        = {Safe and Energy-Efficient Trajectory Planning for Heterogeneous Multi-UAV Enabled Mobile Edge Computing},
   year         = {2025},
   howpublished = {GitHub},
   url          = {https://github.com/xiulingzhang22/SSAC-MGI}
