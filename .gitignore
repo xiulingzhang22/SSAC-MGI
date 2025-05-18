@@ -1,0 +1,5 @@
+# 忽略 environment 文件夹
+environment/
+
+# 忽略 main.py 文件
+main.py
